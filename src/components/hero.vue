@@ -9,10 +9,10 @@
           <h2 class="text-base font-bold">迷客夏 台北遼寧店</h2>
           <div class="flex items-center">
             <div>
-              <i class="bx bxs-star text-yellow-400" ></i>
-              <i class="bx bxs-star text-yellow-400" ></i>
-              <i class="bx bxs-star text-yellow-400" ></i>
-              <i class="bx bxs-star text-yellow-400" ></i>
+              <i
+                v-for="(item, index) in 4" :key="index"
+                class="bx bxs-star text-yellow-400"
+              ></i>
               <i class="bx bxs-star-half text-yellow-200" ></i>
             </div>
             <p class="text-base">4.9 (264)</p>
