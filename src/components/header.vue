@@ -1,18 +1,18 @@
 <template>
   <header class="w-full shadow-md relative">
     <nav class="mx-auto max-w-screen-xl p-1 flex items-center flex-nowrap justify-between">
-      <ul>
+      <ul class="hidden xl:block">
         <li class="inline-block mx-2 p-4 group hover:bg-gray-200 transition cursor-pointer"
           v-for="item in nav"
           :key="item"
         >
-          <p class="text-lg text-gray-900 group-hover:text-red-800 transition font-mono">{{item}}</p>
+          <p class="text-lg text-gray-900 group-hover:text-gray-700 transition font-mono">{{item}}</p>
         </li>
       </ul>
       <div class="absolute w-40 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer">
         <img class="max-w-full" src="../assets/img/midin.png" alt="logo">
       </div>
-      <ul>
+      <ul class="ml-auto md:auto">
         <li class="inline-block mx-2 p-4 hover:bg-blue-50 transition cursor-pointer"
           v-for="item in account"
           :key="item"
@@ -21,7 +21,6 @@
         </li>
       </ul>
     </nav>
-    
   </header>
 </template>
 
