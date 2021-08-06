@@ -2,7 +2,7 @@
   <div class="max-w-screen-xl mx-auto rounded py-5">
     <Hero/>
   </div>
-  <div class="max-w-screen-xl w-11/12 mx-auto py-5 flex items-start justify-around flex-wrap">
+  <div class="max-w-screen-xl w-11/12 xl:w-full mx-auto py-5 flex items-start justify-around flex-wrap">
     <Suspense>
       <template #default>
         <Drink/>
